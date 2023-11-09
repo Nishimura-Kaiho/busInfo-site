@@ -50,6 +50,44 @@ p{
     line-height: min(5vw, 1px);
 }
 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    background: #2e2e2e;
+    font-weight: bold;
+    padding: 0.4em 0;
+}
+
+header .navi {
+    list-style-type: none;
+    mix-blend-mode: normal;
+    text-align: center;
+    width: 100%;
+}
+
+header .navi li{
+    display: inline-block;
+}
+header .navi .center{
+    border-left: solid 1px #ffffff;
+    border-right: solid 1px #ffffff;
+}
+
+header .navi a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: min(3vw, 24px);
+}
+
+header .navi span {
+    color: #8f8f8f;
+}
+
+
+
 .attention{
     color: rgb(255, 255, 255);
     font-weight: bold;
@@ -198,7 +236,7 @@ p{
     z-index: 31;
     text-align: left;
 }
-li{
+.infomation li{
     width: 70%;
     border: solid;
     border-width: 0 0 0.08em 0.3em;
@@ -229,7 +267,7 @@ ul .c{
     object-fit: cover;
 }
 .access h2{
-    top: 6%;
+    top: 13%;
     width: 100%;
     position: absolute;
 }
@@ -248,7 +286,7 @@ ul .c{
 }
 .access .info_access{
     position: absolute;
-    top: 14%;
+    top: 23%;
     width: 100%;
 }
 
@@ -284,7 +322,7 @@ ul .c{
     width: 100%;
 } 
 
-a{
+.access a{
 
     color: rgb(140, 169, 255);
     font-style: oblique;
@@ -327,7 +365,7 @@ a{
 }
 
 #sec05 { 
-    background-color: #4d4d4d;
+    background-color: #7e6262;
     width: 100%;
     height: auto;
 }
@@ -356,7 +394,7 @@ button:active{
 
 .copy{
     font-weight: 300;
-    font-size: 1em;
-    margin-top: 5em;
+    font-size: min(3vw, 20px);
+    /* margin-top: 5em; */
     padding-bottom: 10em;
 }
