@@ -229,37 +229,51 @@ ul .c{
     object-fit: cover;
 }
 .access h2{
-    top: 5%;
+    top: 6%;
     width: 100%;
     position: absolute;
 }
 .access h3{
     text-align: center;
 }
+
 .access h4{
-    text-align: left;
-    padding-left: 2.6em;
+    text-align: center;
+
     /* font-size: 1.1em; */
-    /* text-align: center; */
-    font-weight: 550;
+    /* text-align: left;
+    padding-left: 2em; */
+    font-weight: bold;
+    padding-bottom: 0.5em;
 }
 .access .info_access{
     position: absolute;
-    top: 18%;
+    top: 14%;
     width: 100%;
 }
+
+.access .info_access p{
+    line-height: 1.8em;
+}
+
+.access .info_access .remark{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(255, 160, 160);
+}
+
 .access .bus{
     position: absolute;
-    top: 46%;
+    top: 60%;
     width: 100%;
 }
 .access .bus .a{
     margin-bottom: 2em;
 }
 .access p{
-    width: 65%;
-    margin: 0 6.5em;
-    line-height: 1;
+    width: 78%;
+    margin: 0 4em;
+    line-height: 1em;
     text-align: left; 
     /* text-align: center; */
 }
@@ -276,6 +290,8 @@ a{
     font-style: oblique;
     font-size: 1em;
 }
+
+
 /* ---section04 */
 
 /* section05 */
